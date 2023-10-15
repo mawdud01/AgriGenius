@@ -1,0 +1,98 @@
+<!-- XML layout for ProfitCalculator activity -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="8"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Customer:"
+        android:textSize="15dp"
+        android:padding="5dp">
+    </TextView>
+
+    <!-- Spinner for selecting a customer -->
+    <Spinner
+
+        android:id="@+id/customerSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/reactagngle2"
+        android:hint="Select Customer" />
+
+    <!-- Scrollable view for the TableLayout -->
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_weight="1"
+        android:background="#E8E7E7"
+        android:layout_marginTop="16dp">
+
+        <TableLayout
+
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TableLayout>
+    </ScrollView>
+
+    <EditText
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:hint="sell amount"
+        android:id="@+id/totalsell">
+    </EditText>
+
+    <Button
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:background="@drawable/reactagngle2"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalprofitcalculate"
+        android:text="profit">
+    </Button>
+
+    <TextView
+
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="#777575"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalprofit"
+        android:text="Profit">
+    </TextView>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+    android:padding="10dp"
+        android:textSize="15dp"
+    android:background="@drawable/reactagngle2"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/deletecrops"
+        android:text="delete crops">
+    </Button>
+</LinearLayout>

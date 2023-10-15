@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/diseasebackground"
+    android:orientation="vertical">
+
+    <TextView
+android:layout_weight=".04"
+        android:background="@drawable/white_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Detectlist"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:id="@+id/listofdetect"
+        android:textColor="#024705"
+        android:layout_margin="40dp" />
+
+    <!-- Add a ScrollView to wrap the ImageButton rows vertically -->
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/tomato"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tomato"
+                    android:background="@color/diseasebackground" />
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/applebutton"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/apple"
+                    android:background="@color/diseasebackground" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

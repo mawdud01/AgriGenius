@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/diseasebackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Crops Recomender"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/white_rectangle"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:background="#FAFAFA"
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ph"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Spinner
+            android:id="@+id/phSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select pH Level" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_type"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:padding="20dp"
+            android:id="@+id/soilTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Soil Type" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/climate"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:padding="20dp"
+            android:id="@+id/climateSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Climate" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/recommendButton"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/recomand"
+        android:background="@drawable/white_rectangle"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/recommendationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+
+
+
+
+</LinearLayout>

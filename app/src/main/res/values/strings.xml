@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="diseaseidentify">Disease \n Identify</string>
+    <string name="app_name">Agree genious</string>
+    <string name="greet">English </string>
+    <string name="go">Bangla</string>
+
+    <string name="galary">Gallery </string>
+    <string name="camera">Take Picture</string>
+
+    <string name="Detectlist"><b><u>Which disease I can Detetct</u></b></string>
+    <string name="Classifiedas">Disease Name: </string>
+    <string name="othercondifence">Other Possible Confidence: </string>
+
+    <string name="confidence"><b><u>See others Confidence</u></b></string>
+    <string name="prevent"><b><u>Resistancee</u></b></string>
+
+
+    <!--for textview -->
+    <string name="ph">Soil pH level</string>
+    <string name="soil_type">Soil Type</string>
+    <string name="climate">Climate</string>
+    <string name="recomand">Recommend crops</string>
+
+
+    <string name="temperate_loamy_acidic_recommendation_en">Blueberries, Potatoes, Corn</string>
+    <string name="temperate_loamy_neutral_recommendation_en">Apples, Cherries, Grapes</string>
+    <string name="temperate_loamy_alkaline_recommendation_en">Peppers</string>
+
+
+    <string name="temperate_sandy_acidic_recommendation_en">Carrots, Radishes</string>
+    <string name="temperate_sandy_neutral_recommendation_en">Beans, Lettuce</string>
+    <string name="temperate_sandy_alkaline_recommendation_en">Cucumbers</string>
+
+
+    <string name="temperate_clayey_acidic_recommendation_en">Squash, Strawberries</string>
+    <string name="temperate_clayey_neutral_recommendation_en">Soybeans</string>
+    <string name="temperate_clayey_alkaline_recommendation_en">Date Palms</string>
+
+
+    <string name="tropical_loamy_acidic_recommendation_en">Pineapples, Raspberries, Strawberries</string>
+    <string name="tropical_loamy_neutral_recommendation_en">Oranges, Peaches</string>
+    <string name="tropical_loamy_alkaline_recommendation_en">Mangoes, Tomatoes</string>
+
+
+    <string name="tropical_sandy_acidic_recommendation_en">Bananas, Papayas</string>
+    <string name="tropical_sandy_neutral_recommendation_en">Coconuts, Limes</string>
+    <string name="tropical_sandy_alkaline_recommendation_en">Papayas, Pineapples</string>
+
+
+    <string name="tropical_clayey_acidic_recommendation_en">Cassava, Taro</string>
+    <string name="tropical_clayey_neutral_recommendation_en">Coffee, Cocoa</string>
+    <string name="tropical_clayey_alkaline_recommendation_en">Sugarcane</string>
+
+
+    <string name="arid_loamy_acidic_recommendation_en">Almonds, Figs</string>
+    <string name="arid_loamy_neutral_recommendation_en">Pomegranates</string>
+    <string name="arid_loamy_alkaline_recommendation_en">Date Palms</string>
+
+
+    <string name="arid_sandy_acidic_recommendation_en">Pistachios, Pistachios</string>
+    <string name="arid_sandy_neutral_recommendation_en">Jojoba</string>
+    <string name="arid_sandy_alkaline_recommendation_en">Aloe Vera, Cactus</string>
+
+
+    <string name="arid_clayey_acidic_recommendation_en">Sesame, Strawberries</string>
+    <string name="arid_clayey_neutral_recommendation_en">Chickpeas</string>
+    <string name="arid_clayey_alkaline_recommendation_en">Sugarcane, Cotton</string>
+
+
+    <string name="no_recommendation">no_recommendations</string>
+
+
+    <string-array name="disease_classes">
+        <item>Apple Scab</item>
+        <item>Apple Black Rot</item>
+        <item>Apple Cedar Apple Rust</item>
+        <item>Apple Healthy</item>
+        <item>Blueberry Healthy</item>
+        <item>Cherry Including Sour Powdery Mildew</item>
+        <item>Cherry Including Sour Healthy</item>
+        <item>Corn Maize Cercospora Leaf Spot Gray Leaf Spot</item>
+        <item>Corn Maize Common Rust</item>
+        <item>Corn Maize Northern Leaf Blight</item>
+        <item>Corn Maize Healthy</item>
+        <item>Grape Black Rot</item>
+        <item>Grape Esca Black Measles</item>
+        <item>Grape Leaf Blight Isariopsis Leaf Spot</item>
+        <item>Grape Healthy</item>
+        <item>Orange Haunglongbing Citrus Greening</item>
+        <item>Peach Bacterial Spot</item>
+        <item>Peach Healthy</item>
+        <item>Pepper Bell Bacterial Spot</item>
+        <item>Pepper Bell Healthy</item>
+        <item>Potato Early Blight</item>
+        <item>Potato Late Blight</item>
+        <item>Potato Healthy</item>
+        <item>Raspberry Healthy</item>
+        <item>Soybean Healthy</item>
+        <item>Squash Powdery Mildew</item>
+        <item>Strawberry Leaf Scorch</item>
+        <item>Strawberry Healthy</item>
+        <item>Tomato Bacterial Spot</item>
+        <item>Tomato Early Blight</item>
+        <item>Tomato Late Blight</item>
+        <item>Tomato Leaf Mold</item>
+        <item>Tomato Septoria Leaf Spot</item>
+        <item>Tomato Spider Mites Two-Spotted Spider Mite</item>
+        <item>Tomato Target Spot</item>
+        <item>Tomato Tomato Yellow Leaf Curl Virus</item>
+        <item>Tomato Tomato Mosaic Virus</item>
+        <item>Tomato Healthy</item>
+        <!-- Add other disease names here with the first letter capitalized -->
+    </string-array>
+
+
+    <string-array name="tomatodisease">
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+        <item>Maybe This is not Toamto Leaf</item>
+
+        <item>Tomato Bacterial Spot</item>
+        <item>Tomato Early Blight</item>
+        <item>Tomato Late Blight</item>
+        <item>Tomato Leaf Mold</item>
+        <item>Tomato Septoria Leaf Spot</item>
+        <item>Tomato Spider Mites Two-Spotted Spider Mite</item>
+        <item>Tomato Target Spot</item>
+        <item>Tomato Tomato Yellow Leaf Curl Virus</item>
+        <item>Tomato Tomato Mosaic Virus</item>
+        <item>Tomato Healthy</item>
+
+    </string-array>
+
+
+    <string-array name="appledisease">
+        <item>Apple Scab</item>
+        <item>Apple Black Rot</item>
+        <item>Apple Cedar Apple Rust</item>
+        <item>Apple Healthy</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+        <item>Maybe This is not Apple Leaf</item>
+
+    </string-array>
+
+
+    <string name="diseaste_items">Apple Scab\n\nApple Black Rot\n\nApple Cedar Apple Rust\n\nApple Healthy\n\nBlueberry Healthy\n\nCherry Including Sour Powdery Mildew\n\nCherry Including Sour Healthy\n\nCorn Maize Cercospora Leaf Spot Gray Leaf Spot\n\nCorn Maize Common Rust\n\nCorn Maize Northern Leaf Blight\n\nCorn Maize Healthy\n\nGrape Black Rot\n\nGrape Esca Black Measles\n\nGrape Leaf Blight Isariopsis Leaf Spot\n\nGrape Healthy\n\nOrange Haunglongbing Citrus Greening\n\nPeach Bacterial Spot\n\nPeach Healthy\n\nPepper Bell Bacterial Spot\n\nPepper Bell Healthy\n\nPotato Early Blight\n\nPotato Late Blight\n\nPotato Healthy\n\nRaspberry Healthy\n\nSoybean Healthy\n\nSquash Powdery Mildew\n\nStrawberry Leaf Scorch\n\nStrawberry Healthy\n\nTomato Bacterial Spot\n\nTomato Early Blight\n\nTomato Late Blight\n\nTomato Leaf Mold\n\nTomato Septoria Leaf Spot\n\nTomato Spider Mites Two-Spotted Spider Mite\n\nTomato Target Spot\n\nTomato Yellow Leaf Curl Virus\n\nTomato Mosaic Virus\n\nTomato Healthy</string>
+
+
+</resources>

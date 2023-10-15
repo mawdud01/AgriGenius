@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity"
+    android:background="#1A083A"
+    android:orientation="vertical">
+
+
+    <!-- start main pages  -->
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!--start app bar -->
+        <LinearLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#1A083A"
+
+            android:orientation="horizontal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imageMenu"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/menu"
+                app:tint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:text="Agree Genious"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+        <!--end app bar -->
+
+
+
+        <!-- start main pages  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6"
+            android:orientation="vertical"
+            android:layout_below="@+id/appBar"
+
+            >
+
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:id="@+id/temperature"
+                android:src="@drawable/logo4"
+                android:padding="10dp"
+                ></ImageView>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+
+                <Button
+                    android:id="@+id/disease"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:padding="5dp"
+                    android:text="@string/diseaseidentify"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                     />
+
+                <Button
+                    android:id="@+id/crprec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Crop Recommendation"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                  ></Button>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/disease"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="About Some\nPlant Disease"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                  ></Button>
+
+
+                <Button
+                    android:id="@+id/crprec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Crops\nSuggestion"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                   ></Button>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/market"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Fertilizer  \n Buying"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                 ></Button>
+
+
+                <Button
+                    android:id="@+id/crprec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Crops Market  \n Update"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                  ></Button>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/cropselling"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Crops Selling \n Market"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                   ></Button>
+
+
+                <Button
+                    android:id="@+id/profitmanage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Profit\n Calculator"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                  ></Button>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/disease"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Experience  \n Share"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                  ></Button>
+
+
+                <Button
+                    android:id="@+id/crprec"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_rectangle"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Help \n center"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+
+                    ></Button>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <!-- end main pages  -->
+
+
+
+
+
+
+
+    </RelativeLayout>
+    <!-- end full pages -->
+
+
+
+    <!-- start drawer header -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_View"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+
+        app:headerLayout="@layout/drawar_head_layout"
+        app:menu="@menu/navigation_menu"
+
+
+        />
+
+
+
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

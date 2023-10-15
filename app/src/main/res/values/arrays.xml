@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ph_options">
+
+        <item>Alkaline</item>
+        <item>Neutral</item>
+        <item>Acidic</item>
+    </string-array>
+
+    <string-array name="soil_type_options">
+
+        <item>Loamy</item>
+        <item>Sandy</item>
+        <item>Clayey</item>
+
+        <!-- Add more soil types as needed -->
+    </string-array>
+
+    <string-array name="climate_options">
+
+        <item>Temperate</item>
+        <item>Tropical</item>
+        <item>Arid</item>
+
+        <!-- Add more climate options as needed -->
+    </string-array>
+
+</resources>
+
+
+
+

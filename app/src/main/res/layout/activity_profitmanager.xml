@@ -1,0 +1,66 @@
+<!-- res/layout/activity_add_customer.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="#0C4047"
+    android:weightSum="7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:text="Crops Information"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:weightSum="7"
+        android:gravity="center_horizontal"></TextView>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@drawable/white_rectangle"
+        android:hint="Crops Name" />
+
+
+
+
+    <EditText
+        android:id="@+id/editTextCreationDate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:hint="Select Date"
+        android:padding="10dp"
+        android:background="@drawable/white_rectangle"
+        android:focusable="false"
+        android:onClick="showDatePickerDialog" />
+
+
+
+
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:background="@drawable/white_rectangle"
+        android:layout_centerHorizontal="true"
+        android:text="Add Item" />
+
+</LinearLayout>

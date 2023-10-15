@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="diseaseidentify">গাছের রোগ দেখুন</string>
+    <string name="app_name">Agree genious</string>
+
+
+    <string name="greet">ইংরেজি </string>
+    <string name="go">বাংলা</string>
+    <string name="confidence"><b><u>অন্যান্য সম্ভাবনা দেখুন </u></b></string>
+
+
+    <string name="Classifiedas">রোগের নাম : </string>
+    <string name="othercondifence">অন্যান্য সম্ভাবনা: </string>
+    <string name="galary">গ্যালারি </string>
+    <string name="camera">ক্যামেরা</string>
+    <string name="Detectlist"><b><u>যে সব রোগ এখান থেকে দেখা যাবে</u></b></string>
+    <string name="prevent"><b><u>প্রতিরোধ</u></b></string>
+
+
+
+    <string name="ph">মাটির পিএইচ স্তর</string>
+    <string name="soil_type">মাটির ধরন</string>
+    <string name="climate">জলবায়ু</string>
+    <string name="recomand">উক্ত জমির জন্য এই ফসল গুলো ভালো হবে</string>
+
+
+    <!-- pH Levels (Bengali) -->
+
+
+    <string name="no_recommendation">কোনো ফসলই ভালো হবেনা </string>
+
+    <string name="temperate_loamy_acidic_recommendation_en">ব্লুবেরি, আলু, ভুট্টা</string>
+    <string name="temperate_loamy_neutral_recommendation_en">আপেল, চেরি, আঙ্গুর</string>
+
+    <string name="temperate_loamy_alkaline_recommendation_en">মরিচ</string>
+
+
+    <string name="temperate_sandy_acidic_recommendation_en">গাজর, মূলা</string>
+    <string name="temperate_sandy_neutral_recommendation_en">বীনস, লেটুস</string>
+    <string name="temperate_sandy_alkaline_recommendation_en">কাকড়ি</string>
+
+
+
+
+    <string name="temperate_clayey_acidic_recommendation_en">স্কোয়াশ, স্ট্রবেরি</string>
+    <string name="temperate_clayey_neutral_recommendation_en">সয়াবিন</string>
+    <string name="temperate_clayey_alkaline_recommendation_en">খেজুর</string>
+
+
+
+    <string name="tropical_loamy_acidic_recommendation_en">আনানাস, রাসপবেরি, স্ট্রবেরি</string>
+    <string name="tropical_loamy_neutral_recommendation_en">কমলা, আড়ু</string>
+    <string name="tropical_loamy_alkaline_recommendation_en">আম, টমেটো</string>
+
+
+    <string name="tropical_sandy_acidic_recommendation_en">কলা, পেপে</string>
+    <string name="tropical_sandy_neutral_recommendation_en">নারিকেল, লেবু</string>
+    <string name="tropical_sandy_alkaline_recommendation_en">পেপে, আনানাস</string>
+
+
+    <string name="tropical_clayey_acidic_recommendation_en">শিম, কচু</string>
+    <string name="tropical_clayey_neutral_recommendation_en">কফি, কোকো</string>
+    <string name="tropical_clayey_alkaline_recommendation_en">গুড়</string>
+
+
+    <string name="arid_loamy_acidic_recommendation_en">কাঠ-বাদাম, উত্তের-ডুমুর</string>
+    <string name="arid_loamy_neutral_recommendation_en">ডালিম</string>
+    <string name="arid_loamy_alkaline_recommendation_en">খেজুর</string>
+
+
+
+
+
+
+    <string name="arid_sandy_acidic_recommendation_en">পেস্টাচিও, পেস্টাচিও</string>
+    <string name="arid_sandy_neutral_recommendation_en">জোজোবা</string>
+    <string name="arid_sandy_alkaline_recommendation_en">এলো ভেরা, ক্যাকটাস</string>
+
+
+    <string name="arid_clayey_acidic_recommendation_en">তিল, স্ট্রবেরি</string>
+    <string name="arid_clayey_neutral_recommendation_en">ছোলা</string>
+    <string name="arid_clayey_alkaline_recommendation_en">গান্ডুম, সুতি</string>
+
+
+
+
+    <string-array name="disease_classes">
+        <item>আপেল আপেল স্ক্যাব</item>
+        <item>আপেল ব্ল্যাক রট</item>
+        <item>আপেল সিডার আপেল মরিচা</item>
+        <item>আপেল স্বাস্থ্যকর</item>
+        <item>ব্লুবেরি স্বাস্থ্যকর</item>
+        <item>চেরি সাথে সার পাউডারি মাইল্ডিউ</item>
+        <item>চেরি সাথে সার সুস্থ্য</item>
+        <item>কাঁড়া মেইজ সেরকোসপোরা লিফ স্পট গ্রে লিফ স্পট</item>
+        <item>কাঁড়া মেইজ সাধারণ দাগ</item>
+        <item>কাঁড়া মেইজ উত্তর পাতা ব্লাইট</item>
+        <item>কাঁড়া মেইজ স্বাস্থ্যকর</item>
+        <item>আঙ্গুর কালো হাম</item>
+        <item>আঙ্গুর এসকা কালো মিজল</item>
+        <item>আঙ্গুর পাতার দাগ ইসারিয়াপিস পাতার দাগ</item>
+        <item>আঙ্গুর স্বাস্থ্যকর</item>
+        <item>কমলা হংলোংবিং সাইট্রাস সবুজ</item>
+        <item>পীচ ব্যাকটেরিয়া স্পট</item>
+        <item>পীচ স্বাস্থ্যকর</item>
+        <item>পেপার বেল ব্যাকটেরিয়া স্পট</item>
+        <item>পেপার বেল স্বাস্থ্যকর</item>
+        <item>আলু তাড়াতাড়ি ব্লাইট</item>
+        <item>আলু দেরী ব্লাইট</item>
+        <item>আলু স্বাস্থ্যকর</item>
+        <item>রাস্পবেরি স্বাস্থ্যকর</item>
+        <item>সয়াবিন স্বাস্থ্যকর</item>
+        <item>স্কোয়াশ পাউডারি মিল্ডিউ</item>
+        <item>স্ট্রবেরি পাতা ঝলসানো</item>
+        <item>স্ট্রবেরি স্বাস্থ্যকর</item>
+        <item>টমেটো ব্যাকটেরিয়া স্পট</item>
+        <item>টমেটো তাড়াতাড়ি ব্লাইট</item>
+        <item>টমেটো দেরী ব্লাইট</item>
+        <item>টমেটো পাতার ছাঁচ</item>
+        <item>টমেটো সেপ্টোরিয়া পাতার দাগ</item>
+        <item>টমেটো স্পাইডার মাইট দুই দাগযুক্ত মাকড়সার মাইট</item>
+        <item>টমেটো টার্গেট স্পট</item>
+        <item>টমেটো টমেটো হলুদ পাতার কার্ল ভাইরাস</item>
+        <item>টমেটো টমেটো মোজাইক ভাইরাস</item>
+        <item>টমেটো স্বাস্থ্যকর</item>
+        <!-- Add other disease names in Bengali here -->
+    </string-array>
+
+
+    <string name="diseaste_items">আপেল আপেল স্ক্যাব\n\nআপেল কালো পচা\n\nআপেল সিডার আপেল মরিচা\n\nআপেল স্বাস্থ্যকর\n\nব্লুবেরি স্বাস্থ্যকর\n\nচেরি সহ চেরি সুস্থ্য\n\nকম মায়্জ কার্কোস্পোরা পাতা গ্রে পাতা গ্রে লিফ স্পট\n\nকম মায়্জ সাধারণ রাস্ট\n\nকম মায়্জ উত্তর পাতা ব্লাইট\n\nকম মায়্জ স্বাস্থ্য\n\nকালো রট\n\nকালো মিজেল\n\nবাইলেট পাতা ব্লাইট ইসারিয়াপিস পাতা গ্রে লিফ স্পট\n\nগ্রেপ সুস্থ্য\n\nসবজি হংলোংবিং সাইট্রাস সবুজ\n\nআঙ্গুর ব্যাকটেরিয়া স্পট\n\nআঙ্গুর সুস্থ্য\n\nমরিচ বেল ব্যাকটেরিয়া স্পট\n\nমরিচ বেল সুস্থ্য\n\nআলু আলু পাতা ব্লাইট\n\nআলু দেরী ব্লাইট\n\nআলু স্বাস্থ্য\n\nমৌরঁবি সুস্থ্য\n\nসয়াবিন সুস্থ্য\n\nস্কোয়াশ পাউডারি মিল্ডিউ\n\nস্ট্রবেরি পাতা ঝলসানো\n\nস্ট্রবেরি সুস্থ্য\n\nটমেটো ব্যাকটেরিয়া স্পট\n\nটমেটো তাড়াতাড়ি ব্লাইট\n\nটমেটো দেরী ব্লাইট\n\nটমেটো পাতা ছাঁচ\n\nটমেটো সেপ্টোরিয়া পাতা দাগ\n\nটমেটো স্পাইডার মাইট দুই দাগ ইসারিয়াপিস পাতা দাগ\n\nটমেটো টার্গেট স্পট\n\nটমেটো টমেটো হলুদ পাতা কার্ল ভাইরাস\n\nটমেটো টমেটো মোজাইক ভাইরাস\n\nটমেটো স্বাস্থ্য</string>
+
+
+</resources>
