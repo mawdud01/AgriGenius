@@ -23,6 +23,8 @@
     <string name="climate">Climate</string>
     <string name="recomand">Recommend crops</string>
 
+    <string name="whatsapp"><b><u>Or You Can Chat Now</u></b></string>
+
 
     <string name="temperate_loamy_acidic_recommendation_en">Blueberries, Potatoes, Corn</string>
     <string name="temperate_loamy_neutral_recommendation_en">Apples, Cherries, Grapes</string>

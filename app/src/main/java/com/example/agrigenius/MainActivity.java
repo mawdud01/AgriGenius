@@ -1,8 +1,10 @@
 package com.example.agrigenius;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -11,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -44,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         cropselling=findViewById(R.id.cropselling);
         diseasedetectionbutton=findViewById(R.id.disease);
         Button profitmanage = findViewById(R.id.profitmanage);
+        Button Helpcenter = findViewById(R.id.helpcenter);
 
         profitmanage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -180,15 +184,46 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        Helpcenter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, helpcenter.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
     }
 
 
+    //back button code for exit
     @Override
-    public void onBackPressed() {
-        super.onBackPressed(); // Call the super method to perform the default back action
-        // Additional code to handle the back button action if needed
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            showExitConfirmation();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
-
-
+    private void showExitConfirmation() {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setMessage("Are you sure you want to exit?");
+        alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish(); // Close the app
+            }
+        });
+        alertDialogBuilder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // Do nothing and keep the app running
+            }
+        });
+        alertDialogBuilder.create().show();
+    }
 }
+
+

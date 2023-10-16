@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AgriGenius"
         tools:targetApi="31">
         <activity
+            android:name=".helpcenter"
+            android:exported="false" />
+        <activity
             android:name=".profitcalculation.Profitwindow"
             android:exported="false" />
         <activity

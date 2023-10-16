@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle with transparent fill -->
+    <item android:drawable="@android:color/transparent" />
+    <!-- Border shape -->
+    <item
+        android:gravity="center"
+        >
+        <shape android:shape="oval">
+            <stroke
+                android:width="1dp"
+            android:color="#000000"
+            />
+            <size
+                android:width="110dp"
+            android:height="110dp"
+            />
+        </shape>
+    </item>
+</layer-list>
